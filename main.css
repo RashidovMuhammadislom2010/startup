@@ -1,0 +1,367 @@
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('/startup-front/fonts/RobotoMono-SemiBold.woff2') format('woff2'),
+        url('/startup-front/fonts/RobotoMono-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('/startup-front/fonts/RobotoMono-Italic.woff2') format('woff2'),
+        url('/startup-front/fonts/RobotoMono-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('RobotoMono-Bold.woff2') format('woff2'),
+        url('/startup-front/fonts/RobotoMono-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('/startup-front/fonts/RobotoMono-SemiBoldItalic.woff2') format('woff2'),
+        url('/startup-front/fonts/RobotoMono-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('/startup-front/fonts/RobotoMono-MediumItalic.woff2') format('woff2'),
+        url('/startup-front/fonts/RobotoMono-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('/startup-front/fonts/RobotoMono-BoldItalic.woff2') format('woff2'),
+        url('/startup-front/fonts/RobotoMono-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('/startup-front/fonts/RobotoMono-ExtraLightItalic.woff2') format('woff2'),
+        url('/startup-front/fonts/RobotoMono-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('/startup-front/fonts/RobotoMono-LightItalic.woff2') format('woff2'),
+        url('/startup-front/fonts/RobotoMono-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('/startup-front/fonts/RobotoMono-Light.woff2') format('woff2'),
+        url('/startup-front/fonts/RobotoMono-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('/startup-front/fonts/obotoMono-ExtraLight.woff2') format('woff2'),
+        url('/startup-front/fonts/RobotoMono-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('/startup-front/fonts/RobotoMono-ThinItalic.woff2') format('woff2'),
+        url('/startup-front/fonts/RobotoMono-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('/startup-front/fonts/RobotoMono-Regular.woff2') format('woff2'),
+        url('/startup-front/fonts/RobotoMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('/startup-front/fonts/RobotoMono-Thin.woff2') format('woff2'),
+        url('/startup-front/fonts/RobotoMono-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('/startup-front/fonts/RobotoMono-Medium.woff2') format('woff2'),
+        url('/startup-front/fonts/RobotoMono-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono';
+}
+
+.header {
+    background-color: #6223CC;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo-link {}
+
+.header__logo {}
+
+.Logo {
+    color: #fff;
+    margin-right: 50px;
+}
+
+.header__list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.header__item {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+
+}
+
+.header__item-link {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.header__item-link-arrow {
+    margin-left: 10px;
+}
+
+.header__tel-link {
+    margin-left: 450px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.header__btn-link {
+    color: #000;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    gap: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    padding-right: 53px;
+    padding-left: 53px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+/********************************************************** HERO **********************************************************/
+
+
+.hero {
+    background-image: url(./img/image-removebg-preview\ \(10\)\ 2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+.container {}
+
+.hero__inner {
+    display: flex;
+    align-items: center;
+}
+
+.hero__left {}
+
+.hero__title {
+    color: #fff;
+    width: 694px;
+    height: 216px;
+    top: 2004px;
+    left: 2473px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+    margin-bottom: 46px;
+
+}
+
+.hero__btn-link {
+    color: #000;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    gap: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    padding-right: 53px;
+    padding-left: 53px;
+    text-align: center;
+    text-align: right;
+}
+
+.hero__right {}
+
+.hero__img {}
+
+/************************************************ WHY *****************************************************/
+
+.why {}
+
+.container {}
+
+.why__inner {}
+
+.why__title {
+    width: 630px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-left: 410px;
+    color: #3E5AA2;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.why__text {
+    color: #929FC0;
+    width: 1131px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 250px;
+    margin-bottom: 63px;
+}
+
+.why__list {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin-left: 100px;
+    gap: 30px;
+}
+
+.why__item {
+    width: 373px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.why__item-img {}
+
+.why__item-subtitle {
+    color: #3E5AA2;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+.why__item-subtext {
+    width: 282px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #929FC0;
+    margin-top: 20px;
+
+}
+
+.why__number-box {
+    width: 700px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.why__number-list {
+    list-style: none;
+    display: flex;
+}
+
+.why__number-item {}
+
+.why__number-text {
+    width: 277px;
+    height: 48px;
+    top: 1425px;
+    left: 213px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: #3E5AA2;
+}
+
+.why__number-span {
+    width: 156px;
+    height: 24px;
+    top: 1509px;
+    left: 233px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+
+}
